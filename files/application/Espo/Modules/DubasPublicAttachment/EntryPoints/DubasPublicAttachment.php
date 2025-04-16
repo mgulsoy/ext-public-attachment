@@ -27,6 +27,7 @@ class DubasPublicAttachment extends \Espo\Core\EntryPoints\Base
         'image/png',
         'image/gif',
         'image/webp',
+        'video/mp4',
     ];
 
     public function run(Request $request)
